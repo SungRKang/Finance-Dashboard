@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Box, Typography, useTheme } from "@mui/material";
-import FlexBetween from '@/components/flexBetween';
 import CatchingPokemonIcon from '@mui/icons-material/CatchingPokemon';
+import FlexBetween from '@/components/FlexBetween';
 
 type Props = {};
 
