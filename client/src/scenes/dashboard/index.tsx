@@ -7,10 +7,10 @@ const gridTemplateLargeScreens = `
   "a b c"
   "a b c"
   "a b c"
-  "a b f"
   "d e f"
   "d e f"
-  "d h i"
+  "d e f"
+  "g h i"
   "g h i"
   "g h j"
   "g h j" 
@@ -53,8 +53,8 @@ const Dashboard = () => {
   const isAboveMediumScreens = useMediaQuery("(min-width: 1200px)");
   return (
     <Box 
-      width="100%" 
-      height="100%" 
+      width="99%" 
+      height="99%" 
       display="grid" 
       gap="1.5rem"
       sx={
@@ -63,7 +63,7 @@ const Dashboard = () => {
           gridTemplateRows: "repeat(10, minmax(60px, 1fr))",
           gridTemplateAreas: gridTemplateLargeScreens,
         } : {
-          gridAutoColumns: "1fr",
+          gridAutoColumns: "minmax(0, 1fr)",
           gridAutoRows: "80px",
           gridTemplateAreas: gridTemplateSmallScreens,
         }
