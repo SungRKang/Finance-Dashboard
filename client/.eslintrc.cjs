@@ -15,5 +15,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    "no-duplicate-variable": 0,
+    "no-unused-variable": false
   },
 }

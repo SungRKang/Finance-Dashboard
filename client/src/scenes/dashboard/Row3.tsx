@@ -36,8 +36,6 @@ const Row3 = () => {
       )
     }
   }, [kpiData]);
-  console.log("🚀 ~ file: Row3.tsx:40 ~ pieChartData ~ pieChartData:", pieChartData)
-  
 
   const productColumns = [
     {
