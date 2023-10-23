@@ -2,7 +2,7 @@ import BoxHeader from '@/components/BoxHeader';
 import DashboardBox from '@/components/DashboardBox'
 import { useGetKpisQuery, useGetProductsQuery } from '@/state/api'
 import { Box, Typography, useTheme } from '@mui/material';
-import { CartesianGrid, Legend, Line, LineChart, Tooltip, ResponsiveContainer, XAxis, YAxis, PieChart, Pie, Cell, ScatterChart, Scatter, ZAxis } from 'recharts';
+import { CartesianGrid, Line, LineChart, Tooltip, ResponsiveContainer, XAxis, YAxis, PieChart, Pie, Cell, ScatterChart, Scatter, ZAxis } from 'recharts';
 import { useMemo } from 'react'
 import FlexBetween from '@/components/FlexBetween';
 

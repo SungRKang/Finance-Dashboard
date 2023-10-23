@@ -1,7 +1,7 @@
 import BoxHeader from '@/components/BoxHeader'
 import DashboardBox from '@/components/DashboardBox'
 import { useGetKpisQuery } from '@/state/api'
-import { ResponsiveContainer, AreaChart, XAxis, YAxis, Tooltip, Area, Line, CartesianGrid, Legend, LineChart, BarChart, Bar, Rectangle } from 'recharts'
+import { ResponsiveContainer, AreaChart, XAxis, YAxis, Tooltip, Area, Line, CartesianGrid, Legend, LineChart, BarChart, Bar } from 'recharts'
 import { useTheme } from '@mui/material'
 import { useMemo } from 'react'
 
