@@ -96,7 +96,7 @@ const Row3 = () => {
           p="0 0.5 rem"
           height="75%"
           sx={{
-            "&. MuiDataGrid-root": {
+            ".css-1th5p2f-MuiDataGrid-root": {
               color: palette.grey[300],
               border: "none" ,
             },
@@ -134,7 +134,7 @@ const Row3 = () => {
           p="0 0.5 rem"
           height="80%"
           sx={{
-            "&. MuiDataGrid-root": {
+            ".css-1th5p2f-MuiDataGrid-root": {
               color: palette.grey[300],
               border: "none" ,
             },

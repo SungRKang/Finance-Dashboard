@@ -1,9 +1,0 @@
-{
-  "devDependencies": {
-    "eslint": "^8.51.0",
-    "eslint-config-react-app": "^7.0.1"
-  },
-  "dependencies": {
-    "recharts": "^2.9.0"
-  }
-}
