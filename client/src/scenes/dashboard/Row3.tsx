@@ -132,7 +132,7 @@ const Row3 = () => {
           p="0 0.5 rem"
           height="80%"
           sx={{
-            ".css-1th5p2f-MuiDataGrid-root": {
+            ".css-1dbfb9x": {
               color: palette.grey[300],
               border: "none" ,
             },
