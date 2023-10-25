@@ -1,7 +1,5 @@
 # Financial Dashboard with Predictive Analytics
 
-![Dashboard Screenshot](./assets/Screenshot1.png)
-![Prediction Screenshot](./assets/screenshot2.png)
 
 ## Table of Contents
 1. [Introduction](#introduction)
@@ -15,6 +13,10 @@
 A robust financial dashboard built using the MERN stack. This application showcases metrics such as revenue trends, operational expenses, campaign targets, and detailed transaction histories. It also integrates a machine learning component to forecast financial trends, enhancing data-driven decision-making capabilities.
 
 https://finance-dashboard-gold-five.vercel.app/
+
+
+![Dashboard Screenshot](./assets/Screenshot1.png)
+![Prediction Screenshot](./assets/screenshot2.png)
 
 ## Features
 - **Dynamic Visualizations**: Real-time visual updates with intuitive data representation.
